@@ -23,9 +23,7 @@ public class VarastoTest {
     @Test
     public void kuormitettuKonstruktori1() {
         Varasto varastoK = new Varasto(10, 5);
-        // RIKOTAAN TÄMÄ TARKOITUKSELLA!
-        // KORJAA SEURAAVASSA COMMITISSA OLEMAAN 10
-        assertEquals(11, varastoK.getTilavuus(), vertailuTarkkuus);
+        assertEquals(10, varastoK.getTilavuus(), vertailuTarkkuus);
     }
 
     @Test
